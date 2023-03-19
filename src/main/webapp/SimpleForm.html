@@ -1,0 +1,32 @@
+<HTML>
+<HEAD><TITLE>Simple FORM</TITLE></HEAD>
+<BODY>
+<FORM ACTION="servlet/ListingParam" METHOD="POST">
+Name: <INPUT TYPE="TEXT" NAME="name"></INPUT><BR>
+Surname: <INPUT TYPE="TEXT" NAME="surname"></INPUT><BR>
+Gender:  <INPUT TYPE="RADIO" NAME="gender" VALUE="Male" checked>Male</INPUT>
+	<INPUT TYPE="RADIO" NAME="gender" VALUE="Male">Female</INPUT>
+	<INPUT TYPE="RADIO" NAME="gender" VALUE="Other">Other</INPUT><BR>
+License : <INPUT TYPE="CHECKBOX" NAME="car" VALUE="permit">Car</INPUT>
+	<INPUT TYPE="CHECKBOX" NAME="motorcycle" VALUE="permit">Motor Cycle</INPUT><BR>
+Birth Date: <SELECT NAME="birthdate">
+		<OPTION value="sunday">Sunday</OPTION>
+		<OPTION value="monday" selected>Monday</OPTION>
+		<OPTION value="tuesday">Tuesday</OPTION>
+		<OPTION value="wednesday">Wednesday</OPTION>
+		<OPTION value="thursday">Thursday</OPTION>
+		<OPTION value="friday">Friday</OPTION>
+		<OPTION value="saturday">Saturday</OPTION>
+		</SELECT><BR>
+Possesion: <SELECT NAME="possesion" MULTIPLE="TRUE">
+		<OPTION value="watch" selected>Watch</OPTION>
+		<OPTION value="mobile" selected>Mobile Phone</OPTION>
+		<OPTION value="smartphone">Smart Phone</OPTION>
+		<OPTION value="tablet">Tablet</OPTION>
+		<OPTION value="notebook">Note Book</OPTION>
+		</SELECT><BR>
+Remark: <TEXTAREA NAME="remark" ROWS=3 COLS=40></TEXTAREA><BR>
+<CENTER><INPUT TYPE="SUBMIT" VALUE="SUBMIT"></CENTER>
+</FORM>
+</BODY>
+</HTML>
